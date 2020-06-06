@@ -3754,7 +3754,7 @@ input[type="button"].btn-block {
     color: #fff; }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5); }
+  color: rgba(255, 255, 255, 255); }
   .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
     color: rgba(255, 255, 255, 0.75); }
   .navbar-dark .navbar-nav .nav-link.disabled {
@@ -5288,7 +5288,7 @@ button.bg-light:focus {
   background-color: #dae0e5 !important; }
 
 .bg-dark {
-  background-color: #343a40 !important; }
+  background-color: #000000 !important; }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
@@ -8058,10 +8058,10 @@ h1, h2, h3, h4, h5,
     padding-left: 20px;
     padding-right: 20px;
     font-weight: 400;
-    color: #000000;
+    color: #ffffff;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-      color: #000000; }
+      color: #456fa4; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         padding-left: 0;
@@ -8112,7 +8112,7 @@ h1, h2, h3, h4, h5,
         color: #fff;
         background: #1eaaf1; } }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: #1eaaf1; }
+    color: #456fa4; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.active > a {
         color: #fff; } }
@@ -8398,7 +8398,7 @@ h1, h2, h3, h4, h5,
         height: 10px;
         margin: 5px;
         border-radius: 50%;
-        background: #1eaaf1; }
+        background: #456fa4; }
         .owl-carousel.home-slider .owl-dots .owl-dot.active {
           background: #fff; }
 
@@ -8476,8 +8476,8 @@ h1, h2, h3, h4, h5,
         border-color: #fff;
         color: #1eaaf1; }
   .btn.btn-secondary {
-    background: #fda638;
-    border: 1px solid #fda638;
+    background: #86c357;
+    border: 1px solid #86c357;
     color: #fff; }
     .btn.btn-secondary:hover, .btn.btn-secondary:focus, .btn.btn-secondary:active {
       border: 1px solid #fda638;
@@ -8880,7 +8880,7 @@ textarea.form-control {
   visibility: hidden; }
 
 .bg-primary {
-  background: #1eaaf1 !important; }
+  background: #456fa4 !important; }
 
 .about-author .desc h3 {
   font-size: 24px; }
