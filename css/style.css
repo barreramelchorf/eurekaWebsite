@@ -6483,7 +6483,8 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4 {
-  margin-bottom: 1.5rem !important; }
+  margin-bottom: 1.5rem !important; 
+  margin-bottom: 1.5rem !important;}
 
 .ml-4,
 .mx-4 {
@@ -8886,7 +8887,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 3rem 0;
   position: relative; }
 
 .ftco-no-pt {
@@ -9685,3 +9686,21 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.mapa{
+  margin-top: 5rem;
+  margin-left: -2rem;
+  margin-right: 1rem;
+}
+
+.icono-contacto{
+background: #fafafa;
+width: 50px;
+
+border-radius: 30px;
+margin-top: -2.5rem;
+margin-left: 90px;}
+
+.box-contacto{
+  
+}
