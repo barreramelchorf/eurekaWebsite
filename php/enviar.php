@@ -11,7 +11,7 @@
 
     mail($destinatario, $asunto, $mensajeCompleto, $header); //funcion para enviar el correo
 
-    echo "<sricpt>alert('Correo enviado exitosamente')</script>"; //avisar que se envio el correo
+   // echo "<sricpt>alert('Correo enviado exitosamente')</script>"; //avisar que se envio el correo
 
 
 ?>
