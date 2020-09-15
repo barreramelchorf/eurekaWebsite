@@ -120,7 +120,7 @@
 				<div class="row d-flex align-items-stretch no-gutters">
 					<div class="col-md-6 p-4 p-md-5 order-md-last bg-light">
 
-						<form action="enviar.php"  method="POST">
+						<!-- <form action="enviar.php"  method="POST">
               <div class="form-group">
                 <input type="text" class="form-control" name="nombre" placeholder="Nombre" required>
               </div>
@@ -138,7 +138,35 @@
                   <input class="btn gradient-bg" type="submit" value="Enviar">
               </span>
               </div>
-            </form>
+            </form>-->
+
+            <?
+if (!$HTTP_POST_VARS){
+?>
+<form action="enviar.php" method=post>
+Nombre: <input type=text name="nombre" size=16>
+<br>
+Email: <input type=text name=email size=16>
+<br>
+Comentarios: <textarea name=coment cols=32 rows=6></textarea>
+<br>
+<input type=submit value="Enviar">
+</form>
+<?
+}else{
+    //Estoy recibiendo el formulario, compongo el cuerpo
+    $cuerpo = "Formulario enviado\n";
+    $cuerpo .= "Nombre: " . $HTTP_POST_VARS["nombre"] . "\n";
+    $cuerpo .= "Email: " . $HTTP_POST_VARS["email"] . "\n";
+    $cuerpo .= "Comentarios: " . $HTTP_POST_VARS["coment"] . "\n";
+
+    //mando el correo...
+    mail("diana.upiicsa98@gmail.com","Formulario recibido",$cuerpo);
+
+    //doy las gracias por el envío
+    echo "Gracias por rellenar el formulario. Se ha enviado correctamente.";
+}
+?>
 
 
 
