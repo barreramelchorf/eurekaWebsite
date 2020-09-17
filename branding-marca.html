@@ -96,13 +96,13 @@ PRECIO BAJO COTIZACIÓN
 
 				</p>
 	          </div>
-	          <form action="#" class="appointment-form ftco-animate">
+	          <form action="enviar.php" method="POST" class="appointment-form ftco-animate" netlify>
 	    				<div class="d-md-flex">
 		    				<div class="form-group">
-		    					<input type="text" class="form-control" placeholder="Nombre">
+		    					<input type="text" class="form-control" name="nombre" placeholder="Nombre">
 		    				</div>
 		    				<div class="form-group ml-md-4">
-		    					<input type="text" class="form-control" placeholder="Correo">
+		    					<input type="text" class="form-control" name="correo" placeholder="Correo">
 		    				</div>
 	    				</div>
 	    				<div class="d-md-flex">
@@ -110,19 +110,19 @@ PRECIO BAJO COTIZACIÓN
 		    					<div class="form-field">
           					<div class="select-wrap">
                       <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                      <select name="" id="" class="form-control">
-                      	<option value="Star birthday mission">Branding de marca</option>
+                      <select name="asunto" id="" class="form-control">
+                      	<option value="Branding de marca">Branding de marca</option>
                       </select>
                     </div>
 		              </div>
 		    				</div>
 	    					<div class="form-group ml-md-4">
-		    					<input type="text" class="form-control" placeholder="Teléfono">
+		    					<input type="text" class="form-control" name="telefono" placeholder="Teléfono">
 		    				</div>
 	    				</div>
 	    				<div class="d-md-flex">
 	    					<div class="form-group">
-		              <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Mensaje"></textarea>
+		              <textarea name="" id="" cols="30" rows="2" class="form-control" name="mensaje" placeholder="Mensaje"></textarea>
 		            </div>
 		            <div class="form-group ml-md-4">
 		              <input type="submit" value="Solicitar info" class="btn btn-secondary py-3 px-4">
